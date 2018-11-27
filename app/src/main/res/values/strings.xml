@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Map Project</string>
+    <string name="torontoTrees">140e6cdbfaca478b833897a15afbfb21</string>
+    <string name="torontoParks">316c35954aac4beca3cf8287f6bec47f</string>
+    <string name="torontoNeighbourhoodUrl">https://services7.arcgis.com/mbC97TSabuNgCnce/arcgis/rest/services/Neighbourhoods/FeatureServer/0</string>
+    <string name="torontoParksUrl">https://services7.arcgis.com/mbC97TSabuNgCnce/arcgis/rest/services/Toronto_Parks/FeatureServer/0</string>
+    <string name="torontoTreesUrl">https://services7.arcgis.com/mbC97TSabuNgCnce/arcgis/rest/services/Toronto_Street_Trees/FeatureServer/0</string>
+    <string name="torontoBikesUrl">https://services7.arcgis.com/mbC97TSabuNgCnce/arcgis/rest/services/Toronto_Bicycle_Racks/FeatureServer/0</string>
+    <string name="torontoTrailsUrl">https://services7.arcgis.com/mbC97TSabuNgCnce/arcgis/rest/services/Toronto_Trails/FeatureServer/0</string>
+
+
+    <string-array name="Fields">
+        <item>FID</item>
+        <item>Name</item>
+        <item>Number of Parks</item>
+        <item>Population</item>
+        <item>Total Greenspace (Hectares)</item>
+        <item>Number of Trees</item>
+        <item>Total Area</item>
+        <item>Feature Length</item>
+    </string-array>
+
+    <string-array name="testB">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

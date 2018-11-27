@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.esri.arcgisruntime.mapping.view.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/layerSwitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trees " />
+
+    <Switch
+        android:id="@+id/layerSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parks "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layerSwitch1" />
+
+    <Switch
+        android:id="@+id/layerSwitch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bikes "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layerSwitch2" />
+
+    <Switch
+        android:id="@+id/layerSwitch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trails "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layerSwitch3" />
+
+</android.support.constraint.ConstraintLayout>
+
